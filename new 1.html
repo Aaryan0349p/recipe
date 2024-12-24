@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Recipe Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        header {
+            background-color: #ff6347;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            display: block;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .recipe {
+            margin-bottom: 30px;
+        }
+        .recipe img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .recipe h2 {
+            color: #333;
+        }
+        .recipe p {
+            color: #555;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Recipe Website</h1>
+    </header>
+
+    <nav>
+        <a href="#breakfast">Breakfast</a>
+        <a href="#lunch">Lunch</a>
+        <a href="#dinner">Dinner</a>
+        <a href="#desserts">Desserts</a>
+    </nav>
+
+    <div class="container">
+        <section id="breakfast" class="recipe">
+            <h2>Breakfast: Pancakes</h2>
+            <img src="https://via.placeholder.com/800x400" alt="Pancakes">
+            <p>Learn how to make fluffy and delicious pancakes with this simple recipe.</p>
+        </section>
+
+        <section id="lunch" class="recipe">
+            <h2>Lunch: Caesar Salad</h2>
+            <img src="https://via.placeholder.com/800x400" alt="Caesar Salad">
+            <p>A classic Caesar salad recipe that's perfect for lunch or a light dinner.</p>
+        </section>
+
+        <section id="dinner" class="recipe">
+            <h2>Dinner: Spaghetti Carbonara</h2>
+            <img src="https://via.placeholder.com/800x400" alt="Spaghetti Carbonara">
+            <p>Enjoy a hearty plate of spaghetti carbonara with this easy-to-follow recipe.</p>
+        </section>
+
+        <section id="desserts" class="recipe">
+            <h2>Desserts: Chocolate Cake</h2>
+            <img src="https://via.placeholder.com/800x400" alt="Chocolate Cake">
+            <p>Indulge in a rich and moist chocolate cake for the perfect dessert.</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 My Recipe Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
